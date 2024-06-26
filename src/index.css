@@ -1,0 +1,23 @@
+html,
+body,
+#root {
+  margin: 0;
+}
+
+.app {
+  display: flex;
+}
+
+.sidebar {
+  width: 20rem;
+  height: 100vh;
+  border-right: 1px solid #ddd;
+}
+
+.graph {
+  flex: 1;
+  height: 100vh;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><circle cx="8" cy="8" r="1" fill="%23ccc" /></svg>');
+  background-repeat: repeat;
+  animation: pulse 3s infinite ease-in-out;
+}
